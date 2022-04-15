@@ -7,7 +7,7 @@ const SignUp = () => {
   const [email, setEamil] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [createUserWithEmailAndPassword, user, loading, error] =
+  const [createUserWithEmailAndPassword] =
     useCreateUserWithEmailAndPassword(auth);
   const onEmailBlur = (e) => {
     setEamil(e.target.value);
@@ -17,7 +17,7 @@ const SignUp = () => {
     setPassword(e.target.value);
   };
   const onConfirmPasswordBlur = (e) => {
-    setPassword(e.target.value);
+    setConfirmPassword(e.target.value);
   };
   const onFormSubmit = (e) => {
     e.preventDefault();
