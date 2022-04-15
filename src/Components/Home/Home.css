@@ -41,7 +41,6 @@ button {
     filter: blur(2em);
     opacity: .7;
     transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
-    margin: 0 auto;
    }
    
    button:hover {

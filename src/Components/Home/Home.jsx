@@ -8,7 +8,7 @@ const Home = () => {
         <h1 className="text-5xl font-bold text-orange-500 mt-52">
           Life is what happens when you're busy making other plans
         </h1>
-       <div className="text-center mt-10"> <button>Begins</button></div>
+       <div className="text-center mt-14"> <button>Begins</button></div>
       </div>
     </div>
   );
